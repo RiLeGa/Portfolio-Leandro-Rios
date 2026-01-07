@@ -8,7 +8,7 @@ function AboutMe() {
     <>
       <Container id='aboutMeContainer' className='aboutMeContainer'>
         <Container >
-          <h1>¿Quien soy?</h1>
+          <h2 className='sectionTitle'>¿Quien soy?</h2>
         </Container>
         <Container className='aboutMeText'>
           <img className="leanImage" src={LeanImage} alt="Emanuel Logo" />

@@ -1,11 +1,12 @@
 import React from 'react'
+import buildLogo from '../assets/buildImage.png'
 import './home.css'
 
 function Home() {
   return (<>
     <h1>Hola, Bienvenido a mi Portfolio</h1>
     <h2>Estoy en construcción...</h2>
-    <img className='buildImage' src="src/assets/buildImage.png" alt="buildImage" />
+    <img className='buildImage' src={buildLogo} alt="buildImage"/>
     <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur repellendus vero, unde repudiandae, itaque commodi maiores molestias adipisci obcaecati eaque laboriosam quas, fugit eius rerum ea quidem quae non sed.</h3>
   </>
   )

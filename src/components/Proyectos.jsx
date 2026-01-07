@@ -8,6 +8,9 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import challLogo from '../assets/chall.png'
+import pokeLogo from '../assets/pokeapi.png'
+
 
 
 function Proyectos() {
@@ -16,13 +19,13 @@ function Proyectos() {
     <>
         <Container id='proyectosContainer' className='proyectosContainer'>
           <Container >
-            <h1>Mis proyectos</h1>
+            <h2 className='sectionTitle'>Mis proyectos</h2>
           </Container>
           <Container className='listaProyectos'>
             <a className='linkAProyecto' href="https://challenge-planify-chi.vercel.app/">
               <Card>
                 <CardContent>
-                  <img src="src/assets/chall.png" alt="" />
+                  <img src={challLogo} alt="challLogo"/>
                 </CardContent>
               </Card>  
               <span>Gestion de turnos Challenge Tecnico</span>
@@ -30,7 +33,7 @@ function Proyectos() {
             <a className='linkAProyecto' href="https://heroic-cannoli-4f2d6d.netlify.app/">
               <Card>
                 <CardContent>
-                  <img src="src/assets/pokeapi.png" alt="" />
+                  <img src={pokeLogo} alt="pokeLogo"/>
                 </CardContent>
               </Card>
               <span>Pokedex Pokeapi + React</span>  
@@ -38,7 +41,7 @@ function Proyectos() {
             <a className='linkAProyecto' href="https://challenge-planify-chi.vercel.app/">
               <Card>
                 <CardContent>
-                  <img src="src/assets/chall.png" alt="" />
+                  <img src={challLogo} alt="challLogo"/>
                 </CardContent>
               </Card>  
               <span>Gestion de turnos Challenge Tecnico</span>
@@ -46,7 +49,7 @@ function Proyectos() {
             <a className='linkAProyecto' href="https://heroic-cannoli-4f2d6d.netlify.app/">
               <Card>
                 <CardContent>
-                  <img src="src/assets/pokeapi.png" alt="" />
+                  <img src={pokeLogo} alt="pokeLogo"/>
                 </CardContent>
               </Card>
               <span>Pokedex Pokeapi + React</span>  
@@ -56,7 +59,7 @@ function Proyectos() {
             <a className='linkAProyecto' href="https://challenge-planify-chi.vercel.app/">
               <Card>
                 <CardContent>
-                  <img src="src/assets/chall.png" alt="" />
+                  <img src={challLogo} alt="challLogo"/>
                 </CardContent>
               </Card>  
               <span>Gestion de turnos Challenge Tecnico</span>
@@ -64,7 +67,7 @@ function Proyectos() {
             <a className='linkAProyecto' href="https://heroic-cannoli-4f2d6d.netlify.app/">
               <Card>
                 <CardContent>
-                  <img src="src/assets/pokeapi.png" alt="" />
+                  <img src={pokeLogo} alt="pokeLogo"/>
                 </CardContent>
               </Card>
               <span>Pokedex Pokeapi + React</span>  
@@ -72,7 +75,7 @@ function Proyectos() {
             <a className='linkAProyecto' href="https://challenge-planify-chi.vercel.app/">
               <Card>
                 <CardContent>
-                  <img src="src/assets/chall.png" alt="" />
+                  <img src={challLogo} alt="challLogo"/>
                 </CardContent>
               </Card>  
               <span>Gestion de turnos Challenge Tecnico</span>
@@ -80,7 +83,7 @@ function Proyectos() {
             <a className='linkAProyecto' href="https://heroic-cannoli-4f2d6d.netlify.app/">
               <Card>
                 <CardContent>
-                  <img src="src/assets/pokeapi.png" alt="" />
+                  <img src={pokeLogo} alt="pokeLogo"/>
                 </CardContent>
               </Card>
               <span>Pokedex Pokeapi + React</span>  

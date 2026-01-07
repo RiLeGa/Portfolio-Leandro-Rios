@@ -12,7 +12,6 @@
     transition: padding-top 0.2s ease-in-out;
 }
 .navButton:hover{
-    font-size: 20.5px;
     box-shadow: 0 0 20px rgb(146, 36, 197);
     transition: box-shadow 0.3s ease-in-out, font-size 0.2s ease-in-out;
 }
