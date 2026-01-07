@@ -33,7 +33,7 @@ function Footer() {
   };
 
   return (
-    <Container className="footerContainer">
+    <Container id="footerContainer" className="footerContainer">
         <section className="logoSection">
             <img className="footerLogo" src={logo} alt="Lean Logo" />
             <h2>Lean Rios</h2>

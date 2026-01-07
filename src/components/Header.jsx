@@ -19,7 +19,7 @@ function Header() {
           <Navbar.Brand className='navButton' href="/">Home</Navbar.Brand>
           <Navbar.Brand className='navButton' href="#aboutMeContainer">¿Quien Soy?</Navbar.Brand>
           <Navbar.Brand className='navButton' href="#proyectosContainer">Poyectos</Navbar.Brand>
-          <Navbar.Brand className='navButton' href="#">Contacto</Navbar.Brand>
+          <Navbar.Brand className='navButton' href="#footerContainer">Contacto</Navbar.Brand>
         </Container>
       </Navbar>
     </>
