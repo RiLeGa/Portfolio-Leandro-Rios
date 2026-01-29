@@ -56,9 +56,57 @@
     background-color: #0b0b0bcf;
     padding-bottom: 15px;
 }
+.contNavMobile{
+    display: none;
+}
+.burguerMenu{
+    display: none;
+}
 a{
     text-decoration: none;
     color: inherit;
     padding: 5px;
     margin: 5px;
+}
+@media (max-width: 461px) {
+    .NavBar{
+        display: none;
+    }
+    .burguerMenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        width: 100px;
+        margin-top: 22px;
+        margin-right: -10px;
+    }
+    .burguerMenu.img{
+        color: white;
+    }
+    .checkBarMenu:checked ~ .contNavMobile{
+        display: flex;
+    }
+    .checkBarMenu{
+        display: none;
+    }
+    .burguerSvgLogo{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .contNavMobile{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #0b0b0bcf;
+        position: fixed;
+        top: var(--header-height);
+        left: 0;
+        z-index: 999;
+    }
 }
